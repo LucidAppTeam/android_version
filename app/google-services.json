@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "801832807102",
+    "firebase_url": "https://erhs-app-c3786.firebaseio.com",
+    "project_id": "erhs-app-c3786",
+    "storage_bucket": "erhs-app-c3786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801832807102:android:70b2fee3b340b4a6",
+        "android_client_info": {
+          "package_name": "com.example.erhs_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801832807102-adc3ccoslci42l737ae673ek623v7th2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.erhs_android",
+            "certificate_hash": "65c53b9dd249123390fc84aa6ac145419d336b1f"
+          }
+        },
+        {
+          "client_id": "801832807102-amangs1q402lfu7n4e4ebuljctb03c92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHWlZEfzA-8cHOBMnUp7QZVspnkefVq7E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801832807102-amangs1q402lfu7n4e4ebuljctb03c92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
