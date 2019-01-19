@@ -16,11 +16,11 @@ public class welcome extends AppCompatActivity {
         //fullscreen
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.activity_welcome);
 
 
         //gradient animation
-        ConstraintLayout constraintLayout = findViewById(R.id.signin);
+        ConstraintLayout constraintLayout = findViewById(R.id.welcome);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);

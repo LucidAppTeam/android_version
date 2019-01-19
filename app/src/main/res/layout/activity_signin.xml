@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_link"
-    tools:context=".signin">
+    tools:context="signin">
 
 
     <View
@@ -123,8 +123,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="109dp"
-        android:layout_marginEnd="259dp"
-        android:text="Username:"
+        android:layout_marginEnd="289dp"
+        android:text="Email:"
         android:textColor="@color/darkgrey"
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/view8"
@@ -146,7 +146,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signinbutton"
         android:layout_width="160dp"
         android:layout_height="34dp"
         android:layout_marginStart="143dp"
@@ -169,14 +169,14 @@
         android:layout_marginTop="139dp"
         android:layout_marginEnd="113dp"
         android:background="@drawable/button_background"
+        android:onClick="resetUsername"
         android:radius="30sp"
         android:text="Forgot Username"
         android:textColor="#006aff"
-        android:onClick="resetUsername"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/signinbutton" />
 
     <Button
         android:id="@+id/button3"
@@ -202,6 +202,7 @@
         app:layout_constraintStart_toStartOf="@+id/view9">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/emailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </android.support.design.widget.TextInputLayout>
@@ -212,10 +213,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="31dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/signinbutton"
         app:layout_constraintStart_toStartOf="@+id/view5">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </android.support.design.widget.TextInputLayout>

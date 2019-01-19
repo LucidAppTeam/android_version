@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".createAccount"
-    android:background="@drawable/gradient_link">
+    android:background="@drawable/gradient_link"
+    android:id="@+id/createAccount">
 
 
     <TextView
@@ -233,18 +234,19 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signup"
         android:layout_width="160dp"
         android:layout_height="34dp"
         android:layout_marginStart="265dp"
         android:layout_marginBottom="113dp"
         android:background="@drawable/button_background_green"
         android:radius="30sp"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="beginRegistration"/>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="231dp"
@@ -255,6 +257,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView900">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="hint" />
@@ -270,6 +273,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView9000">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="hint" />
@@ -285,6 +289,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView90">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordoncemore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="hint" />
@@ -298,6 +303,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView9">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="hint" />
